@@ -1,0 +1,29 @@
+---
+name: Net-OBEX-Response
+version: 0.003
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: interpret OBEX protocol response packets
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+  Class::Data::Accessor: 0.04001
+  Net::OBEX::Packet::Headers: 0.002
+build_requires:
+  Test::More: 0
+provides:
+  Net::OBEX::Response:
+    file: lib/Net/OBEX/Response.pm
+    version: 0.003
+  Net::OBEX::Response::Connect:
+    file: lib/Net/OBEX/Response/Connect.pm
+    version: 0.001
+  Net::OBEX::Response::Generic:
+    file: lib/Net/OBEX/Response/Generic.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

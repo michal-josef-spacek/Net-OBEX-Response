@@ -1,5 +1,8 @@
 Revision history for Net-OBEX-Response
 
+0.004
+        fix 'Use of qw(...) as parentheses' warnings
+
 0.003   Apr 8, 2008
         added version in Generic.pm to keep CPANS happier
 

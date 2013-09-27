@@ -10,7 +10,7 @@ use Net::OBEX::Response::Connect;
 use Net::OBEX::Packet::Headers;
 
 use base 'Class::Data::Accessor';
-__PACKAGE__->mk_classaccessors qw(obj_connect  obj_generic  obj_head  error );
+__PACKAGE__->mk_classaccessors( qw(obj_connect  obj_generic  obj_head  error ));
 
 sub new {
     my $class = shift;
